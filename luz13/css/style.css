@@ -22,7 +22,7 @@ background:url(../imgs/fondo.jpg) no-repeat center center fixed;
 
 footer {
 
- background-color: rgba(0, 81, 83, 0.1);
+ background-color: rgba(0, 0, 0, 0.9);
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -30,23 +30,80 @@ footer {
   color: white;
 }
 
-.my-navbar {
-    border: 0;
-    border-radius: 0;
-    
- background-color: rgba(0, 81, 83, 0.1);
- 
-   min-height:40px !important;
-}
-
 .my-navbar2 {
     border: 0;
     border-radius: 0;
     
- background-color: rgba(41, 42, 42, 0.2);
+ background-color:rgba(83, 110, 164, 0.6);
  
    
 }
 
 
+.my-navbar {
+    border: 0;
+    border-radius: 0;
+    
+ background-color: rgba(0, 81, 83, 0.2);
+ 
+   min-height:40px !important;
+}
 
+
+
+
+
+
+
+
+.gallery a {
+	position: relative;
+	display: block;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 100px;
+    height: 100%;
+	width: 100%;
+    padding-top:40px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+    z-index: 20;
+}
+
+.overlay2{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 100px;
+    height: 100%;
+	width: 100%;
+    padding-top:100px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+    z-index: 20;
+}
+
+.gallery a:hover .overlay ,
+.gallery a:hover .overlay2 {
+    opacity: 0.8;
+}
+
+.img-space{
+    margin:20px 0px;
+}
