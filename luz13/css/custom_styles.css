@@ -1,6 +1,10 @@
-h1 { 
+#main_content { 
+  margin-top: 1%;
+  margin-bottom: 7%; 
+}
+h1 {  
+  color: #fff;
   font-weight: 700;
-  border-bottom: 9px solid #424242; 
   text-transform: uppercase;
 }
 h1, .navbar-inverse .navbar-nav .nav-link {
@@ -14,7 +18,6 @@ p {
   color: #212121;
   font-size: 1.5rem;
   font-weight: 700;
-  text-align: center;
 }
 label {
   color: #616161;
