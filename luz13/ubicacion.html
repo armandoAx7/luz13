@@ -6,12 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="Shortcut Icon" type="image/x-icon" href="imgs/logas.png" />
     <title>Ubicación</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/custom_styles.css" />
     <style>
-      .container {
-        margin-bottom: 5%;
+      #main_content { 
+        margin-top: 23%;
+        margin-bottom: 5%; 
       }
       h1 { border-bottom: 5px solid #757575; }
       textarea {
@@ -32,45 +33,18 @@
   </head>
   <body>
 
-    <!-- menu navegacion  -->
-    <nav class="navbar navbar-toggleable-md navbar-inverse  my-navbar2 " >
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-                      
-        <a class="navbar-brand hidden-lg-up " href="#"><img src="imgs/logas.png" height="30px" width="80px"></a>
-  
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          
-          <a class="navbar-brand hidden-md-down " href="#"><img src="imgs/logas.png" height="80px" width="180px"></a>
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="#">¿Quienes Somos?</a>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Ubicación</a>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#">directorio</a>
-            </li>
-              <li class="nav-item">
-              <a class="nav-link" href="#"></a>
-            </li>
-              <li class="nav-item">
-              <a class="nav-link" href="#"></a>
-            </li>
-              <li class="nav-item">
-              <a class="nav-link" href="#"></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" style="color: #FBE407">login</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-   
+    <!-- Menú principal de la página -->
+    <nav class="nav navbar-expand-lg navbar-dark navbar-custom fixed-top">
+      <div class="container">
+        <a href="#" class="nabvar-brand">Resp:. Log:. Simb:. Luz #13</a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+    
       
-    <div class="container">
+    <div id="main_content" class="container">
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-12">
           <h1 class="text-left">Ubicación</h1>
@@ -112,13 +86,11 @@
       </div>
     </div>
 
-    <footer>            
-      <center> &reg; Derechos reservados.SiaSoft.Prohibido su reproducción parcial o total</center>	        
-    </footer>
 
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
     <script>
       $(document).ready(function() {
 

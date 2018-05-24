@@ -1,0 +1,14 @@
+body {
+  background-color: #fff;
+}
+.navbar-custom {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.nav .container  a.nabvar-brand { 
+  color: #fff;
+}
+.navbar-toggler-icon {
+  color: #fff;
+}
