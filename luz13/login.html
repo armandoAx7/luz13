@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="Shortcut Icon" type="image/x-icon" href="imgs/logas.png" />
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Francois+One|Lato|Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Francois+One|Lato|Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+
+    <!-- Contenedor principal  -->
+    <div class="container">
+      <div class="row">
+
+        <div id="container_form" class="col-sm-12 col-md-6 offset-md-3">
+          <img src="imgs/login_user.png" alt="Logo user login" />
+          <!-- Título del formulario -->
+          <h1>Acceso a usuarios</h1>
+
+          <!-- Formulario inicio de sesión -->
+          <form id="formLogin" action="#">
+            <!-- Nombre de usuario -->
+            <div class="form-group">
+              <input class="form-control" id="UID" type="text" size="30" name="UID" placeholder="Usuario" required />
+            </div>
+            <!-- Contraseña -->
+            <div class="form-group">
+              <input class="form-control" id="PWD" type="password" size="30" name="PWD" placeholder="Contraseña o clave" required />
+            </div>
+            <!-- Contraseña -->
+            <div class="form-group">
+              <input class="form-control" id="EMP" type="text" size="30" name="EMP" placeholder="Empresa" required />
+            </div>
+
+            <a href="#!">Modificar contraseña</a>
+            <a href="#!">Recordar contraseña</a>
+            
+            <button id="btnSubmit" type="button" class="btn btn-success">
+              <i class="fas fa-sign-in-alt"></i>
+              Acceder
+            </button>
+            <button id="btnLimpiar" type="button" class="btn btn-info">
+              <i class="fas fa-eraser"></i>
+              Limpiar
+            </button>
+            
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+</html>
