@@ -1,0 +1,10 @@
+
+@font-face {
+    font-family: 'capture_it_2regular';
+    src:  url('fonts/Capture_it_2_webfont.woff') format('woff');
+     
+    
+}
+
+
+p{ font-family: 'capture_it_2regular'; }

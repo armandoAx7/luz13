@@ -1,0 +1,285 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+
+
+}
+
+
+
+
+ .bodybg1{
+    
+    background:url(../imgs/fondo.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    
+    
+    
+}
+.bodybg2{
+    
+    background:url(../imgs/fondo-blanco.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    
+    
+    
+}
+
+ 
+  
+  
+
+
+
+footer {
+
+ background-color: rgba(0, 0, 0, 0.9);
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  height: 49px
+}
+
+.my-navbar2 {
+    border: 0;
+    border-radius: 0;
+    
+ background-color:rgba(83, 110, 164, 0.6);
+ 
+   
+}
+
+
+.my-navbar {
+    border: 0;
+    border-radius: 0;
+    
+ background-color: rgba(0, 81, 83, 0.2);
+ 
+   min-height:40px !important;
+}
+
+
+
+
+
+
+
+
+.gallery a {
+	position: relative;
+	display: block;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 100px;
+    height: 100%;
+	width: 100%;
+    padding-top:40px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+    z-index: 20;
+}
+
+.overlay2{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 100px;
+    height: 100%;
+	width: 100%;
+    padding-top:100px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+    z-index: 20;
+}
+
+.gallery a:hover .overlay ,
+.gallery a:hover .overlay2 {
+    opacity: 0.8;
+}
+
+.img-space{
+    margin:20px 0px;
+}
+
+
+/* columnas */
+
+
+.team {
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.team .social-icon {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.team .social-icon:nth-child(2) {
+    transition: all .5s ease .1s;
+}
+
+.team .social-icon:nth-child(3) {
+    transition: all .5s ease .2s;
+}
+
+.team:hover .team__img img {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+}
+
+.team:hover .team__overlay {
+    visibility: visible;
+    opacity: 1;
+}
+
+.team:hover .social-icon {
+    visibility: visible;
+    opacity: 1;
+}
+
+@media (max-width: 767px) {
+    .team {
+        text-align: center;
+    }
+}
+
+.team__img {
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.team__img img {
+    -webkit-transform: scale(1) translateZ(0);
+            transform: scale(1) translateZ(0);
+    transition: all .3s ease;
+}
+
+.team__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(240, 84, 44, .9);
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+.team__name {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.team__work {
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.team__text {
+    margin-bottom: 20px;
+}
+
+.md-skin-dark .team__work {
+    color: #ccc;
+}
+
+
+
+
+.row-grap {
+    margin: 0;
+}
+
+.row-grap > [class*="col-"] {
+    padding: 0;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+
+
+
+
+.services {
+    margin-bottom: 50%;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.services__title {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0 7px;
+}
+
+.services__title:hover {
+    color: #f0542c;
+}
+
+.services__img {
+    margin-bottom: 15px;
+}
+
+.services__desc {
+    margin-bottom: 30px;
+}
+
+
+.md-section {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size:contain ;
+    background-position: center center;
+    z-index: 16;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
