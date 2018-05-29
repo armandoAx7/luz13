@@ -1,0 +1,29 @@
+#main_content { 
+  margin-top: 1%;
+  margin-bottom: 7%; 
+}
+h1 {  
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+h1, .navbar-inverse .navbar-nav .nav-link {
+  font-family: 'Oswald', sans-serif;
+}
+/* Tamaño de fuente de los enlaces que se encuentran en el menú */
+.navbar-inverse .navbar-nav .nav-link {
+  font-size: 1.3rem;
+}
+p {
+  color: #212121;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+label {
+  color: #616161;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+p, label {
+  font-family: 'Lato', sans-serif;
+}

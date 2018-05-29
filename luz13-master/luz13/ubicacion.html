@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="Shortcut Icon" type="image/x-icon" href="imgs/logas.png" />
+    <title>Ubicación</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .container {
+        margin-bottom: 5%;
+      }
+      h1 { border-bottom: 5px solid #757575; }
+      textarea {
+        height: 150px;
+        resize: none;
+      }
+      .errorMessage { 
+        display: none;
+        color: red; 
+      }
+      .is-invalid {
+        border-color: #dc3545;
+      }
+      .is-invalid:focus {
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6) !important;
+      }
+    </style>
+  </head>
+  <body class="bodybg2">
+
+    <!-- menu navegacion  -->
+     <nav class="navbar navbar-light my-navbar2 navbar-toggleable-md navbar-inverse   ">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+                    
+
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+     
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+                <li class="nav-item">
+            <a class="nav-link" href="nosotros.html">¿Quienes Somos?</a>
+          </li>
+            
+          <li class="nav-item active">
+            <a class="nav-link" href="ubicacion.html">Ubicación</a>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="columna.html">Columnas</a>
+          </li>
+             
+      
+            <li class="nav-item">
+            <a class="nav-link" href="interes.html">Hermanas logias</a>
+          </li>
+           
+            <li class="nav-item">
+            <a class="nav-link" href="https://mail.noip.com" target="_blank" style="color: #FBE407">Buzon</a>
+          </li>
+            
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: #FBE407">Entrar</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+       
+     <nav class="navbar navbar-light my-navbar">
+        
+        </nav> 
+      
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <h1 class="text-left">Ubicación</h1>
+          <p>Usa esta formulario para ponerte en contacto con nosotros. Por favor completa los campos solicitados. ¡Gracias!</p>
+        </div>
+        <!-- Formulario de contacto -->
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <form id="form_contact" disabled>
+            <div class="form-group">
+              <label for="input_name">Nombre completo:</label>
+              <input class="form-control" type="text" id="input_name" name="input_name" placeholder="Nombre completo" required />
+              <small id="input_name_help" class="form-text errorMessage">Debe ingresar su nombre completo</small>
+            </div>
+            <div class="form-group">
+              <label for="input_email">Correo electrónico:</label>
+              <input class="form-control" type="email" id="input_email" name="input_email" placeholder="Correo electrónico" required />
+              <small id="input_email_help" class="form-text errorMessage">Debe ingresar un correo electrónico válido</small>
+            </div>
+            <div class="form-group">
+              <label for="input_address">Dirección:</label>
+              <input class="form-control" type="text" id="input_address" name="input_address" placeholder="Dirección" />
+              <small id="input_address_help" class="form-text errorMessage">Debe ingresar su dirección</small>
+            </div>
+            <div class="form-group">
+              <label for="input_message">Mensaje:</label>
+              <textarea class="form-control" id="input_message" name="input_message" placeholder="Introduzca aquí su mensaje..." require></textarea>
+              <small id="input_message_help" class="form-text errorMessage">Debe ingresar su mensaje</small>
+            </div>
+            <button type="button" id="btn_submit" class="btn btn-outline-primary float-right">
+              <i class="fas fa-envelope"></i>
+              Enviar
+            </button>
+          </form>
+        </div>
+        <!-- Mapa con la ubicación del taller -->
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3798.0502459560757!2d-93.39116850439592!3d17.83627935012997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ec22ce689d5b1b%3A0x1f7b3b04778a8023!2sLogia+Simb%C3%B3lica+Luz+No.+13!5e0!3m2!1ses-419!2smx!4v1527022221811" width="100%" height="493" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+    <footer>            
+      <center>  Derechos reservados.SiaSoft&reg;.Prohibido su reproducción parcial o total</center>	        
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function() {
+
+        $('#btn_submit').click(function(e) {
+
+          var form_data = $('#form_contact').serializeArray();
+          var totalInputs = 0;
+
+          $.each(form_data, (index, element) => {
+            
+            var value = $('#' + element.name).val().trim();            
+            
+            if (element.name == 'input_email') {
+              if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(value)) {
+                addErrorMessage(element);
+              } else { 
+                removeErrorMessage(element);
+                totalInputs++; 
+              }
+            } else if (value === undefined || value == '') {
+              addErrorMessage(element);
+            } else {
+              removeErrorMessage(element);
+              totalInputs++;
+            }
+
+            if (totalInputs == form_data.length) {
+              sendForm(form_data);
+            }
+
+          });
+          
+        });
+
+      });
+
+      function addErrorMessage(element) {
+        $('#' + element.name).removeClass('is-valid').addClass('is-invalid');
+        $('#' + element.name + '_help').css('display', 'block');
+        $('#' + element.name).focus(function() {
+          $('#' + element.name).css('box-shadow', 'none');
+        });
+      }
+      function removeErrorMessage(element) {
+        $('#' + element.name).removeClass('is-invalid');
+        $('#' + element.name + '_help').css('display', 'none');
+      }
+      function sendForm(form_values) {
+        var obj = {}
+        form_values.forEach((item) => { obj[item.name] = item.value; })
+        console.log(JSON.stringify(obj));
+      }
+    </script>
+
+  </body>
+</html>
